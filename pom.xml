@@ -33,13 +33,13 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<username>kas102020</username>
+						<muleVersion>4.3.0</muleVersion>
+						<username>Kas102020</username>
 						<password>S@rita123</password>
 						<environment>Sandbox</environment>
-						<muleVersion>4.3.0</muleVersion>
-						<workers>1</workers>
+						<applicationName>world-timezone-service</applicationName>						
 						<workerType>Micro</workerType>
-						<applicationName>world-timezone-service</applicationName>
+						<workers>1</workers>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
