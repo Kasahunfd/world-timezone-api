@@ -9,8 +9,6 @@
     <packaging>mule-application</packaging>
 
 	<name>jiten-cicd-jenk-proj</name>
-	
-	
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -33,6 +31,15 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<CloudHubDeployment>
+						<username>kas102010</username>
+						<password>S@rita123</password>
+						<environment>SandBox</environment>
+						<muleVersion>4.3.0</muleVersion>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>world-timezone-service</applicationName>
+					</CloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
