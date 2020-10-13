@@ -41,6 +41,7 @@
 						<workerType>Micro</workerType>
 						<workers>1</workers>
 					</cloudHubDeployment>
+					
 				</configuration>
 			</plugin>
 		</plugins>
