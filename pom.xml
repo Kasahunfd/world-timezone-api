@@ -40,7 +40,8 @@
 						<applicationName>world-timezone-service</applicationName>						
 						<workerType>Micro</workerType>
 						<workers>1</workers>
-					</cloudHubDeployment>					
+					</cloudHubDeployment>
+										
 				</configuration>
 			</plugin>
 		</plugins>
