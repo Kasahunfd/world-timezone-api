@@ -40,7 +40,8 @@
 				      <environment>Sandbox</environment>
 				      <workers>1</workers>
 				      <workerType>MICRO</workerType>
-				    </cloudHubDeployment>										
+				    </cloudHubDeployment>
+				    										
 				</configuration>
 			</plugin>
 		</plugins>
