@@ -31,16 +31,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-					<cloudHubDeployment>
-						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
-						<username>Kas102020</username>
-						<password>S@rita123</password>
-						<environment>Sandbox</environment>
-						<applicationName>world-timezone-service</applicationName>						
-						<workerType>Micro</workerType>
-						<workers>1</workers>
-					</cloudHubDeployment>										
+				    <cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <muleVersion>4.3.0</muleVersion>
+				      <username>kas102020</username>
+				      <password>S@rita123</password>
+				      <applicationName>world-timezone-service1</applicationName>
+				      <environment>Sandbox</environment>
+				      <workers>1</workers>
+				      <workerType>Micro</workerType>
+				    </cloudHubDeployment>										
 				</configuration>
 			</plugin>
 		</plugins>
